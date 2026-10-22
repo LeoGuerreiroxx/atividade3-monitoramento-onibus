@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_92d55d75cc73158a911542287cd54310 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_92d55d75cc73158a911542287cd54310" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_92d55d75cc73158a911542287cd54310 = L.map(
+                "map_92d55d75cc73158a911542287cd54310",
+                {
+                    center: [-23.534564, -46.654302],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c085274f05381c4a3cf0a535d9f03ead = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c085274f05381c4a3cf0a535d9f03ead.addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var marker_ccf38888cf9496f7b614694a3ee0e74a = L.marker(
+                [-23.534564, -46.654302],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_86ca8a266c12e1eed14580dcbb43e9c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac2bedc42b1f1f0db8a9fef75b44e9b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1baf1c30c175538aa7d7b042d522fafb = $(`<div id="html_1baf1c30c175538aa7d7b042d522fafb" style="width: 100.0%; height: 100.0%;">Parada: ANGELICA B/C (Cód: 7014417)</div>`)[0];
+                popup_ac2bedc42b1f1f0db8a9fef75b44e9b0.setContent(html_1baf1c30c175538aa7d7b042d522fafb);
+            
+        
+
+        marker_ccf38888cf9496f7b614694a3ee0e74a.bindPopup(popup_ac2bedc42b1f1f0db8a9fef75b44e9b0)
+        ;
+
+        
+    
+    
+                marker_ccf38888cf9496f7b614694a3ee0e74a.setIcon(icon_86ca8a266c12e1eed14580dcbb43e9c6);
+            
+    
+            var marker_b1599fd63a40d23e608b814043585f25 = L.marker(
+                [-23.525799, -46.679251],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_f23871a26fcd36c358a25312e0656ed7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71a6b8ae137d7dc054d51c54ebae7f47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ab72fd0d6e62034333a9aac75359114 = $(`<div id="html_3ab72fd0d6e62034333a9aac75359114" style="width: 100.0%; height: 100.0%;">Parada: PARADA PALMEIRAS B/C (Cód: 60016784)</div>`)[0];
+                popup_71a6b8ae137d7dc054d51c54ebae7f47.setContent(html_3ab72fd0d6e62034333a9aac75359114);
+            
+        
+
+        marker_b1599fd63a40d23e608b814043585f25.bindPopup(popup_71a6b8ae137d7dc054d51c54ebae7f47)
+        ;
+
+        
+    
+    
+                marker_b1599fd63a40d23e608b814043585f25.setIcon(icon_f23871a26fcd36c358a25312e0656ed7);
+            
+    
+            var marker_73b21f95d7739399421a0992e8ff3568 = L.marker(
+                [-23.526523, -46.673588],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_dcd793bee47a6a5be1c21df02b9a4427 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_680aef6802c582ac4004d2441fbe1122 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3e3c129aa6c60cf99e1080701d78965 = $(`<div id="html_d3e3c129aa6c60cf99e1080701d78965" style="width: 100.0%; height: 100.0%;">Parada: ANTARTICA B/C (Cód: 60016786)</div>`)[0];
+                popup_680aef6802c582ac4004d2441fbe1122.setContent(html_d3e3c129aa6c60cf99e1080701d78965);
+            
+        
+
+        marker_73b21f95d7739399421a0992e8ff3568.bindPopup(popup_680aef6802c582ac4004d2441fbe1122)
+        ;
+
+        
+    
+    
+                marker_73b21f95d7739399421a0992e8ff3568.setIcon(icon_dcd793bee47a6a5be1c21df02b9a4427);
+            
+    
+            var marker_1566578df9af5ad085db359d909bbcf5 = L.marker(
+                [-23.528131, -46.670652],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_d70871c580ed5b7904b1489a4dff9534 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5474e5b1b571a79e0898a92eb6667da0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9697649be0410bdd5fde0b3b3ac9c598 = $(`<div id="html_9697649be0410bdd5fde0b3b3ac9c598" style="width: 100.0%; height: 100.0%;">Parada: BABY BARIONY B/C (Cód: 60016788)</div>`)[0];
+                popup_5474e5b1b571a79e0898a92eb6667da0.setContent(html_9697649be0410bdd5fde0b3b3ac9c598);
+            
+        
+
+        marker_1566578df9af5ad085db359d909bbcf5.bindPopup(popup_5474e5b1b571a79e0898a92eb6667da0)
+        ;
+
+        
+    
+    
+                marker_1566578df9af5ad085db359d909bbcf5.setIcon(icon_d70871c580ed5b7904b1489a4dff9534);
+            
+    
+            var marker_ca965e8900c3d53a08e1e63eb1de2f57 = L.marker(
+                [-23.53021, -46.6669],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_bf8aab3c8e91a5bc83a6bec757913361 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8bd4697b7a4b07e391ca9a0e71019e6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9c9ca286917c22ebac82572c47df1e4 = $(`<div id="html_b9c9ca286917c22ebac82572c47df1e4" style="width: 100.0%; height: 100.0%;">Parada: PQ. DA ÁGUA BRANCA B/C (Cód: 60016790)</div>`)[0];
+                popup_8bd4697b7a4b07e391ca9a0e71019e6e.setContent(html_b9c9ca286917c22ebac82572c47df1e4);
+            
+        
+
+        marker_ca965e8900c3d53a08e1e63eb1de2f57.bindPopup(popup_8bd4697b7a4b07e391ca9a0e71019e6e)
+        ;
+
+        
+    
+    
+                marker_ca965e8900c3d53a08e1e63eb1de2f57.setIcon(icon_bf8aab3c8e91a5bc83a6bec757913361);
+            
+    
+            var marker_62317624c9fb11a32b73cfb95dff6fcf = L.marker(
+                [-23.52494, -46.698995],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_6da3943b6b477f4ffff1238699452f9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e238ad240d35bd06de9d31e51ec575d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_204dc7e158836fe262f3b7c54f83cd97 = $(`<div id="html_204dc7e158836fe262f3b7c54f83cd97" style="width: 100.0%; height: 100.0%;">Parada: SCIPIAO B/C (Cód: 480014612)</div>`)[0];
+                popup_e238ad240d35bd06de9d31e51ec575d7.setContent(html_204dc7e158836fe262f3b7c54f83cd97);
+            
+        
+
+        marker_62317624c9fb11a32b73cfb95dff6fcf.bindPopup(popup_e238ad240d35bd06de9d31e51ec575d7)
+        ;
+
+        
+    
+    
+                marker_62317624c9fb11a32b73cfb95dff6fcf.setIcon(icon_6da3943b6b477f4ffff1238699452f9e);
+            
+    
+            var marker_72aa0d2b8eafb57e8e99cfd6de71076f = L.marker(
+                [-23.524994, -46.695297],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_58511d799fdbe44f3deae336c1190e48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af4aafc36f2d023412fdbe3387d94be7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_751eadf2a244fa7ead58008ae182303e = $(`<div id="html_751eadf2a244fa7ead58008ae182303e" style="width: 100.0%; height: 100.0%;">Parada: VESPASIANO B/C (Cód: 480014613)</div>`)[0];
+                popup_af4aafc36f2d023412fdbe3387d94be7.setContent(html_751eadf2a244fa7ead58008ae182303e);
+            
+        
+
+        marker_72aa0d2b8eafb57e8e99cfd6de71076f.bindPopup(popup_af4aafc36f2d023412fdbe3387d94be7)
+        ;
+
+        
+    
+    
+                marker_72aa0d2b8eafb57e8e99cfd6de71076f.setIcon(icon_58511d799fdbe44f3deae336c1190e48);
+            
+    
+            var marker_078216107bbacc66c59742665d3c6568 = L.marker(
+                [-23.525029, -46.690074],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_e9519e38ad5aa20c36810901719da12c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c992c494fb633d80eaadcb0858081c77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2127b8775d9d97a0087f0abd2b1cc876 = $(`<div id="html_2127b8775d9d97a0087f0abd2b1cc876" style="width: 100.0%; height: 100.0%;">Parada: CORNELIA (Cód: 480014614)</div>`)[0];
+                popup_c992c494fb633d80eaadcb0858081c77.setContent(html_2127b8775d9d97a0087f0abd2b1cc876);
+            
+        
+
+        marker_078216107bbacc66c59742665d3c6568.bindPopup(popup_c992c494fb633d80eaadcb0858081c77)
+        ;
+
+        
+    
+    
+                marker_078216107bbacc66c59742665d3c6568.setIcon(icon_e9519e38ad5aa20c36810901719da12c);
+            
+    
+            var marker_d7df05386fad7b20a914168f14dd2fee = L.marker(
+                [-23.523407, -46.700541],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_d9643d44a38d4281c557886a6729d38b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff74ca8b7d39d3851710568bfd0be778 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7935b8a324971f5eea466faa085d5950 = $(`<div id="html_7935b8a324971f5eea466faa085d5950" style="width: 100.0%; height: 100.0%;">Parada: CATAO B/C (Cód: 480014961)</div>`)[0];
+                popup_ff74ca8b7d39d3851710568bfd0be778.setContent(html_7935b8a324971f5eea466faa085d5950);
+            
+        
+
+        marker_d7df05386fad7b20a914168f14dd2fee.bindPopup(popup_ff74ca8b7d39d3851710568bfd0be778)
+        ;
+
+        
+    
+    
+                marker_d7df05386fad7b20a914168f14dd2fee.setIcon(icon_d9643d44a38d4281c557886a6729d38b);
+            
+    
+            var marker_13007ed3c6c45c80da7928c8e3519392 = L.marker(
+                [-23.52517, -46.683408],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_5ba12b31531a7462a4c406751cfa1c0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05d5c7d21407c03970e15d43f2960bed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffb5fd24d7d7b5a18ea7dfaabff5e324 = $(`<div id="html_ffb5fd24d7d7b5a18ea7dfaabff5e324" style="width: 100.0%; height: 100.0%;">Parada: SESC POMPEIA B/C (Cód: 610014603)</div>`)[0];
+                popup_05d5c7d21407c03970e15d43f2960bed.setContent(html_ffb5fd24d7d7b5a18ea7dfaabff5e324);
+            
+        
+
+        marker_13007ed3c6c45c80da7928c8e3519392.bindPopup(popup_05d5c7d21407c03970e15d43f2960bed)
+        ;
+
+        
+    
+    
+                marker_13007ed3c6c45c80da7928c8e3519392.setIcon(icon_5ba12b31531a7462a4c406751cfa1c0d);
+            
+    
+            var marker_574f8344fe4ebd5ea996d4aeed5ac090 = L.marker(
+                [-23.540545, -46.643624],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_24902de08b01c898f99d9a8ac1d88616 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cd806741cacdb6bba7f4e426194507f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3131b81a6953739cd12292f286bcf407 = $(`<div id="html_3131b81a6953739cd12292f286bcf407" style="width: 100.0%; height: 100.0%;">Parada: VITORIA B/C (Cód: 670010530)</div>`)[0];
+                popup_2cd806741cacdb6bba7f4e426194507f.setContent(html_3131b81a6953739cd12292f286bcf407);
+            
+        
+
+        marker_574f8344fe4ebd5ea996d4aeed5ac090.bindPopup(popup_2cd806741cacdb6bba7f4e426194507f)
+        ;
+
+        
+    
+    
+                marker_574f8344fe4ebd5ea996d4aeed5ac090.setIcon(icon_24902de08b01c898f99d9a8ac1d88616);
+            
+    
+            var marker_d0a170503c2fafb8ff5d416f1c52e152 = L.marker(
+                [-23.532847, -46.657404],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_e4b08474d73232b6aa43b347de236c8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d696654af451b613f129c02a6e79000e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dbfb827dc5d2c6f48c4628a8aca7f1c = $(`<div id="html_0dbfb827dc5d2c6f48c4628a8aca7f1c" style="width: 100.0%; height: 100.0%;">Parada: ROSA E SILVA C/B (Cód: 700006086)</div>`)[0];
+                popup_d696654af451b613f129c02a6e79000e.setContent(html_0dbfb827dc5d2c6f48c4628a8aca7f1c);
+            
+        
+
+        marker_d0a170503c2fafb8ff5d416f1c52e152.bindPopup(popup_d696654af451b613f129c02a6e79000e)
+        ;
+
+        
+    
+    
+                marker_d0a170503c2fafb8ff5d416f1c52e152.setIcon(icon_e4b08474d73232b6aa43b347de236c8b);
+            
+    
+            var marker_93751c40f079ab10ce74d199d8597033 = L.marker(
+                [-23.538708, -46.646888],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_edb55276eb1c432b8352c8c796e1985e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16818e264a338da2b1fb79160c3607d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2091bcf75fb76ff1c911a4182ee538f2 = $(`<div id="html_2091bcf75fb76ff1c911a4182ee538f2" style="width: 100.0%; height: 100.0%;">Parada: ANA CINTRA B/C (Cód: 700016623)</div>`)[0];
+                popup_16818e264a338da2b1fb79160c3607d0.setContent(html_2091bcf75fb76ff1c911a4182ee538f2);
+            
+        
+
+        marker_93751c40f079ab10ce74d199d8597033.bindPopup(popup_16818e264a338da2b1fb79160c3607d0)
+        ;
+
+        
+    
+    
+                marker_93751c40f079ab10ce74d199d8597033.setIcon(icon_edb55276eb1c432b8352c8c796e1985e);
+            
+    
+            var marker_95ce6af4081b271d1a9420ea3ccede8e = L.marker(
+                [-23.536318, -46.651201],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_3b630645b8b68e0dc0068ec8a758197f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a1768bf19b5250a36fa0d3bfac476fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fad7a3507bd961261ad253f2dafecac = $(`<div id="html_3fad7a3507bd961261ad253f2dafecac" style="width: 100.0%; height: 100.0%;">Parada: NOTHMANN C/B (Cód: 700016866)</div>`)[0];
+                popup_8a1768bf19b5250a36fa0d3bfac476fd.setContent(html_3fad7a3507bd961261ad253f2dafecac);
+            
+        
+
+        marker_95ce6af4081b271d1a9420ea3ccede8e.bindPopup(popup_8a1768bf19b5250a36fa0d3bfac476fd)
+        ;
+
+        
+    
+    
+                marker_95ce6af4081b271d1a9420ea3ccede8e.setIcon(icon_3b630645b8b68e0dc0068ec8a758197f);
+            
+    
+            var marker_8f63e85cf9fdd890ea5103b11cf9cee7 = L.marker(
+                [-23.538583250000002, -46.64711975],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_17576e2e61eb751666e99146d1a835b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_443ff52fa822efef71da1435a77d3b3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4027c2af6768a9a2eb6e39bc823e18f = $(`<div id="html_d4027c2af6768a9a2eb6e39bc823e18f" style="width: 100.0%; height: 100.0%;">Prefixo: 12534 - Hora: 2026-10-22T23:19:17Z</div>`)[0];
+                popup_443ff52fa822efef71da1435a77d3b3d.setContent(html_d4027c2af6768a9a2eb6e39bc823e18f);
+            
+        
+
+        marker_8f63e85cf9fdd890ea5103b11cf9cee7.bindPopup(popup_443ff52fa822efef71da1435a77d3b3d)
+        ;
+
+        
+    
+    
+                marker_8f63e85cf9fdd890ea5103b11cf9cee7.setIcon(icon_17576e2e61eb751666e99146d1a835b4);
+            
+    
+            var marker_f2155b403dfe81707de65b6c14854bd3 = L.marker(
+                [-23.520449499999998, -46.6996115],
+                {
+}
+            ).addTo(map_92d55d75cc73158a911542287cd54310);
+        
+    
+            var icon_7b751eb3968f5792308262655e51c992 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa2c2fa2be2507858f9ba215a8390b29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_649a2c49e9ee95454f2699be8db6e9b7 = $(`<div id="html_649a2c49e9ee95454f2699be8db6e9b7" style="width: 100.0%; height: 100.0%;">Prefixo: 12644 - Hora: 2026-10-22T23:18:59Z</div>`)[0];
+                popup_fa2c2fa2be2507858f9ba215a8390b29.setContent(html_649a2c49e9ee95454f2699be8db6e9b7);
+            
+        
+
+        marker_f2155b403dfe81707de65b6c14854bd3.bindPopup(popup_fa2c2fa2be2507858f9ba215a8390b29)
+        ;
+
+        
+    
+    
+                marker_f2155b403dfe81707de65b6c14854bd3.setIcon(icon_7b751eb3968f5792308262655e51c992);
+            
+</script>
+</html>
